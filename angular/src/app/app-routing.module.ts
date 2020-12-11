@@ -10,7 +10,8 @@ const routes: Routes = [{ path: 'welcome', loadChildren: () => import('./welcome
 { path: 'give', loadChildren: () => import('./give/give.module').then(m => m.GiveModule) },
 { path: 'digitalLearning', loadChildren: () => import('./digital-learning/digital-learning.module').then(m => m.DigitalLearningModule) },
 { path: 'workWithFacts', loadChildren: () => import('./work-with-facts/work-with-facts.module').then(m => m.WorkWithFactsModule) },
-{ path: 'comittedToData', loadChildren: () => import('./comitted-to-data/comitted-to-data.module').then(m => m.ComittedToDataModule) }];
+{ path: 'comittedToData', loadChildren: () => import('./comitted-to-data/comitted-to-data.module').then(m => m.ComittedToDataModule) },
+{ path: 'whatWeDo', loadChildren: () => import('./what-we-do/what-we-do.module').then(m => m.WhatWeDoModule) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
