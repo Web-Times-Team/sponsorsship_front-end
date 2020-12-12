@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ../angular
+    working_directory: ~/../angular
     docker:
       - image: circleci/node:13-browsers
     steps:
