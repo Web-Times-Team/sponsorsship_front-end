@@ -4,5 +4,5 @@ use sponsorsship_angular_library
 
 ## development mode
 run 
--`npm install`
--`ng serve`
+- `npm install`
+- `ng serve`
