@@ -17,7 +17,4 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     console.log(this.menuBarDatas);
   }
-  yoo() {
-    this.router.navigate(["whoWeAre"]);
-  }
 }
