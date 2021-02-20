@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   navLinks: NavLink[] = [new NavLink("Who We Are", "whoWeAre"), new NavLink("Where We Work", "whereWeWork"), new NavLink("What We Do", "whatWeDo"), new NavLink("Get Involved").appendChildLinks([new NavLink("Say Hello", "contactUs"), new NavLink("Contact Us")])];
   logo: Logo = new Logo('../assets/logos/menu_logo.png', "welcome")
   menuBarDatas: MenuBarDatas = new MenuBarDatas(this.navLinks, this.logo)
+
   ngOnInit(): void {
     console.log(this.menuBarDatas);
   }
